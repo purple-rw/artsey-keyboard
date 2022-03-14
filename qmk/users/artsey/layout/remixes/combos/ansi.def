@@ -1,0 +1,19 @@
+// Copyright (c) 2022 purple-rw
+// SPDX-License-Identifier: Apache-2.0
+
+//   NAME                            RESULT                         TRIGGER
+COMB(combo_y,                        KC_Y,                          KEY_U1,           KEY_U3)
+
+COMB(combo_nine,                     KC_9,                          KNUM_U1, KNUM_U2, KNUM_U3)
+#ifdef ARTSEY_HAND_LEFT
+COMB(combo_seven,                    KC_7,                                   KNUM_U2, KNUM_U3)
+COMB(combo_eight,                    KC_8,                          KNUM_U1, KNUM_U2)
+COMB(combo_zero,                     KC_0,                                   KNUM_L2, KNUM_L3)
+COMB(combo_dot,                      KC_DOT,                        KNUM_L1, KNUM_L2)
+#endif
+#ifdef ARTSEY_HAND_RIGHT
+COMB(combo_seven,                    KC_7,                          KNUM_U1, KNUM_U2)
+COMB(combo_eight,                    KC_8,                                   KNUM_U2, KNUM_U3)
+COMB(combo_zero,                     KC_0,                          KNUM_L1, KNUM_L2)
+COMB(combo_dot,                      KC_DOT,                                 KNUM_L2, KNUM_L3)
+#endif

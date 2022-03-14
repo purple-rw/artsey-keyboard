@@ -1,0 +1,8 @@
+// Copyright (c) 2022 purple-rw
+// SPDX-License-Identifier: Apache-2.0
+
+//   NAME                            RESULT                         TRIGGER
+COMB(combo_reset_base,               RESET,                         KEY_U1,  KEY_U2,  KEY_U3,  KEY_U4,  KEY_L1,  KEY_L2,  KEY_L3,  KEY_L4)
+COMB(combo_reset_nav,                RESET,                         KNAV_U1, KNAV_U2, KNAV_U3, KNAV_U4, KNAV_L1, KNAV_L2, KNAV_L3, KNAV_L4)
+COMB(combo_reset_mse,                RESET,                         KC_WH_U, KC_BTN2, KC_MS_U, KC_BTN1, KC_WH_D, KC_MS_L, KC_MS_D, KC_MS_R)
+COMB(combo_reset_rgb,                RESET,                         RGB_MOD, RGB_VAI, RGB_HUI, RGB_SPI, RGB_RMOD, RGB_VAD, RGB_HUD, RGB_SPD)

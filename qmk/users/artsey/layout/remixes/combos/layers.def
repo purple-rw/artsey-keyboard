@@ -1,0 +1,12 @@
+// Copyright (c) 2022 purple-rw
+// SPDX-License-Identifier: Apache-2.0
+
+//   NAME                            RESULT                         TRIGGER
+#ifdef ARTSEY_SIZE_STD
+COMB(combo_layer_basefun,            TG(LAYER_ID_RGB),              KEY_U1,  KEY_L2,  KEY_U3,  KEY_L4)
+#ifdef ARTSEY_HAND_LEFT
+COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F2,   KEY_F4,  KEY_F5,  KEY_L7)
+#endif
+#ifdef ARTSEY_HAND_RIGHT
+COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F1,   KEY_F3,  KEY_F6,  KEY_L8)
+#endif
