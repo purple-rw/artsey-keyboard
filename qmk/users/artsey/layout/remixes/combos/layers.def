@@ -10,3 +10,4 @@ COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F2,   KC_
 #ifdef ARTSEY_HAND_RIGHT
 COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F1,   KC_F3,   KC_F6,   KC_F8)
 #endif
+#endif // ARTSEY_SIZE_STD

@@ -33,7 +33,7 @@ STD_TRAILING_NONES
 STD_LEADING_NONES \
 RGB_SPI,          RGB_HUI,          RGB_VAI,          RGB_MOD,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-RGB_RPD,          RGB_HUD,          RGB_VAD,          RGB_RMOD          \
+RGB_SPD,          RGB_HUD,          RGB_VAD,          RGB_RMOD          \
 STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_PAR_RIGHT \
