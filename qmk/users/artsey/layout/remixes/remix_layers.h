@@ -1,6 +1,5 @@
 // Copyright (c) 2022 purple-rw
 // SPDX-License-Identifier: Apache-2.0
-#pragma once
 
 #define ARTSEY_STD_LAYER_PAR_LEFT \
 STD_LEADING_NONES \
@@ -36,7 +35,6 @@ RGB_SPI,          RGB_HUI,          RGB_VAI,          RGB_MOD,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
 RGB_RPD,          RGB_HUD,          RGB_VAD,          RGB_RMOD          \
 STD_TRAILING_NONES
-#endif
 
 #define ARTSEY_STD_LAYER_PAR_RIGHT \
 STD_LEADING_NONES \
@@ -84,4 +82,4 @@ STD_TRAILING_NONES
 #define ARTSEY_STD_LAYER_FUN ARTSEY_STD_LAYER_FUN_RIGHT
 #define ARTSEY_STD_LAYER_RGB ARTSEY_STD_LAYER_RGB_RIGHT
 #endif
-#endif
+#endif // ARTSEY_SIZE_STD

@@ -45,6 +45,3 @@
 #define KNUM_U1 KC_4
 #define KNUM_U3 KC_6
 #endif
-
-// Disable default combos
-#define DISABLE_DEFAULT_NUMBER_COMBOS

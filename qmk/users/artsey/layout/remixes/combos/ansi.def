@@ -17,3 +17,6 @@ COMB(combo_eight,                    KC_8,                                   KNU
 COMB(combo_zero,                     KC_0,                          KNUM_L1, KNUM_L2)
 COMB(combo_dot,                      KC_DOT,                                 KNUM_L2, KNUM_L3)
 #endif
+
+// Disable default combos
+#define DISABLE_DEFAULT_NUMBER_COMBOS
