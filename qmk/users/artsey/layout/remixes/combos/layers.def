@@ -11,3 +11,5 @@ COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F2,   KC_
 COMB(combo_layer_funbase,            TG(LAYER_ID_RGB),              KC_F1,   KC_F3,   KC_F6,   KC_F8)
 #endif
 #endif // ARTSEY_SIZE_STD
+
+COMB(combo_layer_osl_func,           OSL(LAYER_ID_FUNCTIONS),       KEY_U1,  KEY_L1,  KEY_U2,  KEY_L2)

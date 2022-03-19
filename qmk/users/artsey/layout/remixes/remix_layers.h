@@ -3,9 +3,9 @@
 
 #define ARTSEY_STD_LAYER_PAR_LEFT \
 STD_LEADING_NONES \
-KC_RCBR,          KC_LPRN,          KC_RPRN,          KC_TRNS,          \
+KC_LCBR,          KC_LPRN,          KC_RPRN,          KC_TRNS,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-KC_LCBR,          KC_LBRC,          KC_RBRC,          KC_NO             \
+KC_RCBR,          KC_LBRC,          KC_RBRC,          KC_NO             \
 STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_SYM_LEFT \
@@ -19,7 +19,7 @@ STD_TRAILING_NONES
 STD_LEADING_NONES \
 _______,          KC_VOLD,          KC_MUTE,          KC_VOLU,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-XXXXXXX,          XXXXXXX,          XXXXXXX,          XXXXXXX           \
+XXXXXXX,          XXXXXXX,          XXXXXXX,          KC_PSCR           \
 STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_FUN_LEFT \
@@ -54,7 +54,7 @@ STD_TRAILING_NONES
 STD_LEADING_NONES \
 KC_VOLD,          KC_MUTE,          KC_VOLU,          _______,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-XXXXXXX,          XXXXXXX,          XXXXXXX,          XXXXXXX           \
+KC_PSCR,          XXXXXXX,          XXXXXXX,          XXXXXXX           \
 STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_FUN_RIGHT \
@@ -68,9 +68,8 @@ STD_TRAILING_NONES
 STD_LEADING_NONES \
 RGB_MOD,           RGB_VAI,          RGB_HUI,          RGB_SPI,         \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-RGB_RMOD,          RGB_VAD,          RGB_HUD,          RGB_RPD          \
+RGB_RMOD,          RGB_VAD,          RGB_HUD,          RGB_SPD          \
 STD_TRAILING_NONES
-
 
 #ifdef ARTSEY_SIZE_STD
 // Allow proper auto selection of left / right via keymaps

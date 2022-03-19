@@ -1,6 +1,5 @@
 // Copyright (c) 2022 purple-rw
 // SPDX-License-Identifier: Apache-2.0
-#pragma once
 
 // Colemak base keys
 #undef KEY_U1
@@ -11,14 +10,14 @@
 #undef KEY_L2
 #undef KEY_L3
 #undef KEY_L4
-#define KEY_U4 LT(LAYER_ID_CUSTOM, KC_A)
-#define KEY_U3 KC_R
-#define KEY_U2 KC_S
-#define KEY_U1 LT(LAYER_ID_PARENTHETICALS, KC_T)
-#define KEY_L1 LT(LAYER_ID_SYMBOLS, KC_N)
-#define KEY_L2 KC_E
-#define KEY_L3 KC_I
-#define KEY_L4 LT(LAYER_ID_NUMBERS, KC_O)
+#define KEY_L4 LT(LAYER_ID_NUMBERS, KC_A)
+#define KEY_L3 KC_R
+#define KEY_L2 KC_S
+#define KEY_L1 LT(LAYER_ID_SYMBOLS, KC_T)
+#define KEY_U1 LT(LAYER_ID_PARENTHETICALS, KC_N)
+#define KEY_U2 KC_E
+#define KEY_U3 KC_I
+#define KEY_U4 LT(LAYER_ID_CUSTOM, KC_O)
 
 // Ten-key number keys
 #undef KNUM_U1
