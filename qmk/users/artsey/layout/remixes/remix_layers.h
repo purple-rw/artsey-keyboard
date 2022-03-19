@@ -31,9 +31,9 @@ STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_RGB_LEFT \
 STD_LEADING_NONES \
-RGB_SPI,          RGB_HUI,          RGB_VAI,          RGB_MOD,          \
+KRGB_U4,          KRGB_U3,          KRGB_U2,          KRGB_U1,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-RGB_SPD,          RGB_HUD,          RGB_VAD,          RGB_RMOD          \
+KRGB_L4,          KRGB_L3,          KRGB_L2,          KRGB_L1           \
 STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_PAR_RIGHT \
@@ -66,9 +66,9 @@ STD_TRAILING_NONES
 
 #define ARTSEY_STD_LAYER_RGB_RIGHT \
 STD_LEADING_NONES \
-RGB_MOD,           RGB_VAI,          RGB_HUI,          RGB_SPI,         \
+KRGB_U1,          KRGB_U2,          KRGB_U3,          KRGB_U4,          \
 STD_BETWEEN_ROW_ONE_TWO_NONES \
-RGB_RMOD,          RGB_VAD,          RGB_HUD,          RGB_SPD          \
+KRGB_L1,          KRGB_L2,          KRGB_L3,          KRGB_L4           \
 STD_TRAILING_NONES
 
 #ifdef ARTSEY_SIZE_STD

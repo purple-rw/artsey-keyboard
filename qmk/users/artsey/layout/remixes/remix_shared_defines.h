@@ -44,3 +44,13 @@
 #define KNUM_U1 KC_4
 #define KNUM_U3 KC_6
 #endif
+
+// RGB keys
+#define KRGB_U1 RGB_MOD
+#define KRGB_U2 RGB_VAI
+#define KRGB_U3 RGB_HUI
+#define KRGB_U4 RGB_SPI
+#define KRGB_L1 RGB_RMOD
+#define KRGB_L2 RGB_VAD
+#define KRGB_L3 RGB_HUD
+#define KRGB_L4 RGB_SPD
