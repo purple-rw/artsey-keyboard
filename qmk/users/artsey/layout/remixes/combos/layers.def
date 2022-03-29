@@ -3,10 +3,10 @@
 
 //   NAME                            RESULT                         TRIGGER
 #ifdef ARTSEY_SIZE_STD
-COMB(combo_layer_basefun,           OSL(LAYER_ID_FUNCTIONS),       KEY_U1,  KEY_L1,  KEY_U2,  KEY_L2)
+COMB(combo_layer_basefun,           OSL(LAYER_ID_FUNCTIONS),       KEY_T1,  KEY_B1,  KEY_T2,  KEY_B2)
 
-COMB(combo_layer_basergb,           TG(LAYER_ID_RGB),              KEY_U1,  KEY_L2,  KEY_U3,  KEY_L4)
-COMB(combo_layer_rgbbase,           TG(LAYER_ID_RGB),              KRGB_U1, KRGB_L2, KRGB_U3, KRGB_L4)
+COMB(combo_layer_basergb,           TG(LAYER_ID_RGB),              KEY_T1,  KEY_B2,  KEY_T3,  KEY_B4)
+COMB(combo_layer_rgbbase,           TG(LAYER_ID_RGB),              KRGB_T1, KRGB_B2, KRGB_T3, KRGB_B4)
 #endif // ARTSEY_SIZE_STD
 
 
